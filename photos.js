@@ -1,5 +1,5 @@
 // Photos from Unsplash (unsplash.com/license: free for commercial use, no permission needed).
-// Credits are shown in the site footer.
+// Credits are shown in the site footer. Entries with `local` are our own images in images/ (no credit needed).
 const PHOTOS = {
   // Scenes
   hero: { src: "https://images.unsplash.com/photo-1651928977880-ffb2d963b6b4", by: "Natalia Marcelewicz", link: "https://unsplash.com/@nataliila" },
@@ -15,16 +15,16 @@ const PHOTOS = {
   mountain: { src: "https://images.unsplash.com/photo-1631744591853-998c4308bbb0", by: "Bailey Alexander", link: "https://unsplash.com/@baileyal3xander" },
 
   // Products
-  hivis: { src: "https://images.unsplash.com/photo-1612787114413-a5e60ede7db8", by: "Caspar Rae", link: "https://unsplash.com/@raecaspar" },
+  hivis: { src: "https://images.unsplash.com/photo-1764328165995-0624c280a6d2", by: "atelierbyvineeth", link: "https://unsplash.com/@atelierbyvineeth" },
   boots: { src: "https://images.unsplash.com/photo-1605812860427-4024433a70fd", by: "Maxim Hopman", link: "https://unsplash.com/@nampoh" },
   gloves: { src: "https://images.unsplash.com/photo-1634852836003-c0aa5b67d243", by: "Hybrid Storytellers", link: "https://unsplash.com/@hybridstorytellers" },
   headtorch: { src: "https://images.unsplash.com/photo-1517457773273-412ec74a18cd", by: "HEAD Accessories", link: "https://unsplash.com/@headaccessories" },
   firstaid: { src: "https://images.unsplash.com/photo-1624638760852-8ede1666ab07", by: "Mathurin NAPOLY / matnapo", link: "https://unsplash.com/@matnapo" },
-  extinguisher: { src: "https://images.unsplash.com/photo-1625958936686-a9343dc35b5b", by: "Tak Kei Wong", link: "https://unsplash.com/@kevphotomcr" },
-  triangle: { src: "https://images.unsplash.com/photo-1600609593831-1cd5ffa6930e", by: "은 하", link: "https://unsplash.com/@galaxim" },
+  extinguisher: { src: "https://images.unsplash.com/photo-1496745109441-36ea45fed379", by: "Piotr Chrobot", link: "https://unsplash.com/@chrumo" },
+  triangle: { src: "https://images.unsplash.com/photo-1623048793098-1f9638de7c49", by: "piet keitel", link: "https://unsplash.com/@piet_keitel" },
   coalarm: { src: "https://images.unsplash.com/photo-1665655034446-1536f6de3fe6", by: "Yosuke Ota", link: "https://unsplash.com/@yosuke_ota" },
-  tyregauge: { src: "https://images.unsplash.com/photo-1513827574967-e763dd0bc329", by: "Crystal Kwok", link: "https://unsplash.com/@spacexuan" },
-  sleepingbag: { src: "https://images.unsplash.com/photo-1558477280-1bfed08ea5db", by: "Felix M. Dorn", link: "https://unsplash.com/@allaperto" },
+  tyregauge: { src: "https://images.unsplash.com/photo-1568437234382-a8e1e70daa38", by: "Brendan Hollis", link: "https://unsplash.com/@brendanhollis" },
+  sleepingbag: { src: "https://images.unsplash.com/photo-1586191721714-bfa8bd36fd07", by: "lucas Favre", link: "https://unsplash.com/@we_are_rising" },
   pillow: { src: "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2", by: "Jude Infantini", link: "https://unsplash.com/@judowoodo_" },
   sleepmask: { src: "https://images.unsplash.com/photo-1631310709791-1b3701c7a335", by: "Slumber Sleep Aid", link: "https://unsplash.com/@slumbercbn" },
   fan: { src: "https://images.unsplash.com/photo-1564510182791-29645da7fac4", by: "Call Me Fred", link: "https://unsplash.com/@callmefred" },
@@ -33,30 +33,30 @@ const PHOTOS = {
   toiletries: { src: "https://images.unsplash.com/photo-1679466231026-7b632eb05b90", by: "VU HIEP", link: "https://unsplash.com/@vudinhhiep" },
   sanitiser: { src: "https://images.unsplash.com/photo-1608564348103-2b78891150cf", by: "Neil Bates", link: "https://unsplash.com/@ngbates" },
   coolbox: { src: "https://images.unsplash.com/photo-1550720295-a59523cb8872", by: "Sandrene Zhang", link: "https://unsplash.com/@sandrene" },
-  kettle: { src: "https://images.unsplash.com/photo-1594213114663-d94db9b17125", by: "laura adai", link: "https://unsplash.com/@lauraadaiphoto" },
-  lunchheater: { src: "https://images.unsplash.com/photo-1543352632-5a4b24e4d2a6", by: "Ella Olsson", link: "https://unsplash.com/@ellaolsson" },
+  kettle: { src: "https://images.unsplash.com/photo-1643114786355-ff9e52736eab", by: "engin akyurt", link: "https://unsplash.com/@enginakyurt" },
+  lunchheater: { src: "https://images.unsplash.com/photo-1543353071-c953d88f7033", by: "Ella Olsson", link: "https://unsplash.com/@ellaolsson" },
   flask: { src: "https://images.unsplash.com/photo-1613645540553-d98859ffeec5", by: "Jeffrey Brandjes", link: "https://unsplash.com/@jeffreyfotografie" },
   water: { src: "https://images.unsplash.com/photo-1561041695-d2fadf9f318c", by: "Noppadon Manadee", link: "https://unsplash.com/@nutnp" },
   snacks: { src: "https://images.unsplash.com/photo-1543158181-1274e5362710", by: "Maksim Shutov", link: "https://unsplash.com/@maksimshutov" },
   satnav: { src: "https://images.unsplash.com/photo-1634743556192-d19f0c69ff3a", by: "Erik Mclean", link: "https://unsplash.com/@introspectivedsgn" },
   dashcam: { src: "https://images.unsplash.com/photo-1765959106936-851735565c12", by: "leoon liang", link: "https://unsplash.com/@leoonliang" },
-  charger: { src: "https://images.unsplash.com/photo-1518613457753-943af5077db6", by: "Anton Murygin", link: "https://unsplash.com/@mib32" },
+  charger: { src: "https://images.unsplash.com/photo-1752552050371-8360f9c78086", by: "Obi", link: "https://unsplash.com/@obionyeador" },
   powerbank: { src: "https://images.unsplash.com/photo-1566554738544-d962991c3fee", by: "I'M ZION", link: "https://unsplash.com/@ziontech" },
   phonemount: { src: "https://images.unsplash.com/photo-1764347923709-fc48487f2486", by: "William Hadley", link: "https://unsplash.com/@william_hadley_us" },
   inverter: { src: "https://images.unsplash.com/photo-1678775882799-2fba7042e7da", by: "Zendure Power Station", link: "https://unsplash.com/@zendure" },
-  cbradio: { src: "https://images.unsplash.com/photo-1771581133326-4b32949d8e5f", by: "Eugen Brazhnikov", link: "https://unsplash.com/@anorak52" },
-  jumpstarter: { src: "https://images.unsplash.com/photo-1535190458486-5fc153d35688", by: "riis riiiis", link: "https://unsplash.com/@riiiis" },
-  padlock: { src: "https://images.unsplash.com/photo-1555529902-5261145633bf", by: "Zaqy Al Fattah", link: "https://unsplash.com/@dizzydizz" },
-  doorstrap: { src: "https://images.unsplash.com/photo-1548863070-75fbb819c668", by: "Gaia Armellin", link: "https://unsplash.com/@flamingaia" },
-  seals: { src: "https://images.unsplash.com/photo-1766157669389-06fbb2489d72", by: "Sergei Nikulin", link: "https://unsplash.com/@nik_photta" },
+  cbradio: { src: "https://images.unsplash.com/photo-1749786623960-d6a2977ed899", by: "Tuan Nguyen", link: "https://unsplash.com/@anhtuannl" },
+  jumpstarter: { src: "https://images.unsplash.com/photo-1597766321604-9de3ff9e93e2", by: "Daniel @ bestjumpstarterreview.com", link: "https://unsplash.com/@jumpstarterexpert" },
+  padlock: { src: "https://images.unsplash.com/photo-1635602739175-bab409a6e94c", by: "Kaffeebart", link: "https://unsplash.com/@kaffeebart" },
+  doorstrap: { src: "https://images.unsplash.com/photo-1790706326938-075631b74983", by: "Shadow Photography", link: "https://unsplash.com/@shadow_photography2008" },
+  seals: { src: "https://images.unsplash.com/photo-1620092802344-83ac90398e7c", by: "REGINE THOLEN", link: "https://unsplash.com/@designbytholen" },
   ratchet: { src: "https://images.unsplash.com/photo-1637241612493-df40fd55baa4", by: "Markus Winkler", link: "https://unsplash.com/@markuswinkler" },
   docwallet: { src: "https://images.unsplash.com/photo-1655722725332-9925c96dd627", by: "Global Residence Index", link: "https://unsplash.com/@globalresidenceindex" },
   ukSticker: { src: "https://images.unsplash.com/photo-1578002244268-ba3221818d98", by: "Sam Pearce-Warrilow", link: "https://unsplash.com/@sjpw" },
   deflectors: { src: "https://images.unsplash.com/photo-1549207107-2704df6b92ab", by: "Samuel-Elias Nadler", link: "https://unsplash.com/@mrsamuelelias" },
-  blindspot: { src: "https://images.unsplash.com/photo-1768554058655-ffc14e476826", by: "Polina Kuzovkova", link: "https://unsplash.com/@p_kuzovkova" },
-  breathalyser: { src: "https://images.unsplash.com/photo-1602607771743-9f829d8419e9", by: "Edrece Stansberry", link: "https://unsplash.com/@edrecestansberry" },
+  blindspot: { local: "images/blindspot.jpg" },
+  breathalyser: { src: "https://images.unsplash.com/photo-1676629922083-96d147ab81a9", by: "Bermix Studio", link: "https://unsplash.com/@bermixstudio" },
   bulbkit: { src: "https://images.unsplash.com/photo-1585569695919-db237e7cc455", by: "Tekton", link: "https://unsplash.com/@tekton_tools" },
-  critair: { src: "https://images.unsplash.com/photo-1621981386829-9b458a2cddde", by: "Ibrahim Boran", link: "https://unsplash.com/@ibrahimboran" },
+  critair: { local: "images/critair.jpg" },
   snowchains: { src: "https://images.unsplash.com/photo-1743612216336-8796b169784d", by: "Jim Moriarty", link: "https://unsplash.com/@jim_moriarty" },
   scraper: { src: "https://images.unsplash.com/photo-1644004483856-326817b63c95", by: "Aaron Doucett", link: "https://unsplash.com/@adoucett" },
   handwarmers: { src: "https://images.unsplash.com/photo-1602891867080-1d56348202a3", by: "Amin Hasani", link: "https://unsplash.com/@aminhasani" },
@@ -69,5 +69,6 @@ const PHOTOS = {
 
 function photo(key, w = 800, h = 600) {
   const p = PHOTOS[key];
+  if (p && p.local) return p.local;
   return p ? `${p.src}?auto=format&fit=crop&w=${w}&h=${h}&q=75` : "";
 }

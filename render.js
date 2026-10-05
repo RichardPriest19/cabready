@@ -85,7 +85,7 @@ function buyLinks(p) {
 
 function creditsHTML(keys) {
   const people = new Map();
-  (keys || Object.keys(PHOTOS)).forEach((k) => PHOTOS[k] && people.set(PHOTOS[k].by, PHOTOS[k].link));
+  (keys || Object.keys(PHOTOS)).forEach((k) => PHOTOS[k] && PHOTOS[k].by && people.set(PHOTOS[k].by, PHOTOS[k].link));
   return (
     "Photos on <a href='https://unsplash.com' target='_blank' rel='noopener'>Unsplash</a> by " +
     [...people].map(([by, link]) => `<a href="${link}" target="_blank" rel="noopener">${by}</a>`).join(", ") +
