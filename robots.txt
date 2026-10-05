@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://richardpriest19.github.io/cabready/sitemap.xml
