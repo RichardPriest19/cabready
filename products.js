@@ -162,6 +162,22 @@ const PRODUCTS = [
     query: "truck tyre pressure gauge dual head 150 psi",
   },
 
+  {
+    id: "threepoint",
+    name: "3-point contact cab step stickers",
+    category: "safety",
+    official: false,
+    summary: "A reminder by the cab steps to keep three points of contact getting in and out.",
+    why: "Falls from cab steps and trailers are one of the most common causes of injury for truck drivers, often from jumping down or climbing with something in one hand. Keeping three points of contact (two hands and a foot, or two feet and a hand) cuts the risk. A sticker by the door is a simple reminder for you and anyone else who uses the truck.",
+    lookFor: [
+      "Weatherproof, UV-resistant vinyl that won't fade",
+      "Big enough to read at a glance, next to the steps or grab handles",
+      "Keep the steps and handles clean, and face the cab when climbing down",
+    ],
+    qty: () => "2 per cab, one by each door",
+    query: "maintain 3 point contact sticker truck",
+  },
+
   // ---- Cab living ----------------------------------------------------------
   {
     id: "sleepingbag",
@@ -630,6 +646,23 @@ const PRODUCTS = [
     qty: () => "1 set per unit and trailer",
     showWhen: (h) => h.europe,
     query: "angles morts sticker truck France",
+  },
+  {
+    id: "speeddiscs",
+    name: "Speed limit discs",
+    category: "europe",
+    official: true,
+    summary: "France requires vehicles over 3.5 tonnes to show their speed limits on the back.",
+    why: "In France, vehicles over 3.5 tonnes must display round speed limit discs on the rear, showing the maximum speeds the vehicle is allowed to travel at, and some other European countries have similar rules. They're usually reflective stickers, for example 80 and 90 km/h. Check the rules for each country on your route. In the UK, trucks over 3.5 tonnes must have a speed limiter set to 90 km/h (56 mph), and many operators add a 'Limited to 56 mph' sticker on the back so drivers behind know why you're not going faster.",
+    lookFor: [
+      "Reflective, weatherproof vinyl discs",
+      "Speeds that match the limits for your vehicle (for example 80 and 90 km/h)",
+      "Fit them on the back of the trailer, or the unit if you're running solo",
+      "A 'Limited to 56 mph' sticker for UK roads",
+    ],
+    qty: () => "1 set per unit and trailer",
+    showWhen: (h) => h.europe,
+    query: "speed limit disc sticker truck 80 90 km/h",
   },
   {
     id: "breathalyser",

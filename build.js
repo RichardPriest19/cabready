@@ -105,11 +105,11 @@ const GUIDES = [
       "Before you go, check the latest advice on <a href=\"https://www.gov.uk/guidance/driving-in-the-eu\" target=\"_blank\" rel=\"noopener\">GOV.UK</a> and with your operator, and make sure your paperwork is in order: driving licence, Driver CPC card, tachograph card, passport and the vehicle and load documents.",
       "<h2>The rules that catch UK drivers out</h2>",
       "<strong>Hi-vis within reach.</strong> In France, Spain, Italy, Belgium and many other countries the vest must be in the cab, not in a side locker, so you can put it on before you get out.",
-      "<strong>France.</strong> Vehicles over 3.5 tonnes must show 'angles morts' blind spot stickers, and you need a Crit'Air sticker to enter low-emission zones in cities such as Paris and Lyon. Order the Crit'Air sticker only from the official government site.",
+      "<strong>France.</strong> Vehicles over 3.5 tonnes must show 'angles morts' blind spot stickers and speed limit discs on the back, and you need a Crit'Air sticker to enter low-emission zones in cities such as Paris and Lyon. Order the Crit'Air sticker only from the official government site.",
       "<strong>Winter.</strong> Austria requires trucks over 3.5 tonnes to carry snow chains from 1 November to 15 April, and mountain areas of France and Italy have their own winter equipment rules.",
       "<h2>What to carry</h2>",
     ],
-    items: ["docwallet", "hivis", "triangle", "firstaid", "ukSticker", "deflectors", "blindspot", "critair", "breathalyser", "bulbkit", "extinguisher", "snowchains"],
+    items: ["docwallet", "hivis", "triangle", "firstaid", "ukSticker", "deflectors", "blindspot", "speeddiscs", "critair", "breathalyser", "bulbkit", "extinguisher", "snowchains"],
     faq: [
       { q: "Do I need a UK sticker on my truck?", a: ["You need a UK sticker unless your number plate shows the UK identifier (the letters UK, with or without the Union flag). In Spain, Cyprus and Malta you need the sticker whatever your plate shows. GB stickers are no longer valid and should be covered or removed."] },
       { q: "Do UK trucks need French blind spot stickers?", a: ["Yes. Since 2021, all vehicles over 3.5 tonnes driving in France, including foreign ones, must show the official 'angles morts' stickers on both sides and the rear."] },
